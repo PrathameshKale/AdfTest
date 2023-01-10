@@ -1,0 +1,145 @@
+{
+  "MessageHeader": {
+    "MessageTypeID": "ORUR01",
+    "MessageTypeDescription": "LabResult",
+    "MessageID": "22021",
+    "CorrelationId": "54321dc6-1234-11ab-8888-8888bcf4e6ad",
+    "MessageDateTime": "2022-11-22T06:00:00",
+    "MessageTransmittedDateTime": "2022-11-22T06:00:00",
+    "SendingApplication": "EPIC",
+    "SendingFacility": "EMC",
+    "ReceivingApplication": "Nuance_RT",
+    "ReceivingFacility": "Nuance_RT",
+    "RawHl7": "MSH|^~\\&|EPIC|EMC|Nuance_RT|Nuance_RT|20221122060000|202241|ORU^R01|22006|T|2.5\rPID|1||204469||Beckman^Six||19590801|M||CA|93 STREET^^ASHLEY^SC^29640^US^L^^SC039|SC039|(864)859-0020^P^PH||ENG|M|MTH|800100001145|368-12-1111|||NON|\rPV1|1|E||R|||27740^EDENFIELD^WILLIAM^JEFFERY^^|27870^SMITH^JONATHON^LINDA^^|09640^HUGE^JENCY^BAKER^^|||||RP|||||37824|106|||||||\rOBR|1|3231179|24464|89579-7^Troponin I.cardiac^LN||20221121060000|20221121060000|||||||20221121060000||27740^EDENFIELD^WILLIAM^JEFFERY\rOBX|1|NM|89579-7^Troponin I.cardiac^LN||53|ng/L||N|||F||||||||20221121060000|\r"
+  },
+  "Patient": {
+    "IdList": [
+      {
+        "Id": "204469",
+        "IdType": "MR",
+        "Description": "Medical Record Number"
+      },
+      {
+        "Id": "eA5rR2.FFlrUBYQOWgWd1jg3",
+        "IdType": "EhrId",
+        "Description": "EHR Identifier"
+      }
+    ],
+    "Name": [
+      {
+        "LastName": "Beckman",
+        "FirstName": "Six",
+        "MiddleName": "",
+        "Suffix": ""
+      }
+    ],
+    "DateOfBirth": "1959-08-01",
+    "Age": 0,
+    "SSN": "368-12-1111",
+    "Gender": "M",
+    "Race": "CA",
+    "Address": [
+      {
+        "Line1": "93 STREET",
+        "Line2": "",
+        "City": "ASHLEY",
+        "State": "SC",
+        "Zip": "29640",
+        "County": "SC039"
+      }
+    ],
+    "Contact": [
+    ],
+    "PatientMerge": [
+    ]
+  },
+  "Encounter": {
+    "IdList": [
+      {
+        "Id": "37824",
+        "IdType": "EncounterVisitNumber",
+        "Description": "Encounter Visit Number"
+      },
+      {
+        "Id": "eBSlDLxHg0meS3DX5YfaatQ3",
+        "IdType": "EhrId",
+        "Description": "EHR Identifier"
+      }
+    ],
+    "PatientClass": "E",
+    "VisitDateTime": "0001-01-01T00:00:00",
+    "Provider": [
+      {
+        "IdList": [
+          {
+            "Id": "27740",
+            "IdType": "NPI",
+            "Description": "National Practitioner Identifier"
+          }
+        ],
+        "ProviderType": "Attending",
+        "Name": [
+          {
+            "LastName": "EDENFIELD",
+            "FirstName": "WILLIAM",
+            "MiddleName": "JEFFERY",
+            "Suffix": ""
+          }
+        ]
+      },
+      {
+        "IdList": [
+          {
+            "Id": "27870",
+            "IdType": "NPI",
+            "Description": "National Practitioner Identifier"
+          }
+        ],
+        "ProviderType": "Referring",
+        "Name": [
+          {
+            "LastName": "SMITH",
+            "FirstName": "JONATHON",
+            "MiddleName": "LINDA",
+            "Suffix": ""
+          }
+        ]
+      },
+      {
+        "IdList": [
+          {
+            "Id": "09640",
+            "IdType": "NPI",
+            "Description": "National Practitioner Identifier"
+          }
+        ],
+        "ProviderType": "Consulting",
+        "Name": [
+          {
+            "LastName": "HUGE",
+            "FirstName": "JENCY",
+            "MiddleName": "BAKER",
+            "Suffix": ""
+          }
+        ]
+      }
+    ],
+    "Diagnosis": [
+    ],
+    "Allergies": [
+    ],
+    "Results": [
+      {
+        "Code": "89579-7",
+        "CodeSet": "LN",
+        "Description": "Troponin I.cardiac",
+        "Value": "53",
+        "Units": "ng/L",
+        "CollectionDateTime": "2022-10-19T06:00:00",
+        "ResultDateTime": "2022-10-19T06:00:00",
+        "AbnormalFlag": "N",
+        "Status": "F"
+      }
+    ]
+  }
+}
